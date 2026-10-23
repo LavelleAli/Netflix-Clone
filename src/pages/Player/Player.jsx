@@ -26,7 +26,9 @@ const Player = () => {
   useEffect(() => {
     fetch(`https://api.themoviedb.org/3/movie/${id}/videos`, options)
       .then((res) => res.json())
-      .then((res) => setApiData(res.results[0]))
+      .then((res) => {
+        if (res.results?.length) setApiData(res.results[0]);
+      })
       .catch((err) => console.error(err));
   }, []);
 
