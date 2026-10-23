@@ -36,8 +36,8 @@ A Netflix-style streaming UI built with React and Vite. Users sign up or sign in
 ### Installation
 
 ```bash
-git clone https://github.com/LavelleAli/NetflixClone__LavelleAli.git
-cd NetflixClone__LavelleAli
+git clone https://github.com/LavelleAli/Project004-Netflix-Clone.git
+cd Project004-Netflix-Clone
 npm install
 ```
 
